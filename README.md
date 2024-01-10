@@ -43,12 +43,13 @@ Create folder named 'DeepGlobe', its structure is
       ├── test
 ```
 ### test
-Please download following pretrianed-model [here]()
+Please download our pretrianed-model [here](https://drive.google.com/drive/folders/178LTNGOE-4zc5LN8rFVF2DihOjwsXBS7?usp=drive_link)
 ```
 python ./test.py configs/SGHRQ/SGHRQ_r18-d8_2000x2000_40k_InriaAerial.py InriaAerial.pth --eval mIoU  
 python ./test.py configs/SGHRQ/SGHRQ_r18-d8_1224x1224_80k_DeepGlobe.py DeepGlobe.pth --eval mIoU
 ```
 ### train
+Please download STDC pretrianed-model [here](https://github.com/MichaelFan01/STDC-Seg)
 ```
 python ./train.py configs/SGHRQ/SGHRQ_r18-d8_2000x2000_40k_InriaAerial.py  
 python ./train.py configs/SGHRQ/SGHRQ_r18-d8_1224x1224_80k_DeepGlobe.py
