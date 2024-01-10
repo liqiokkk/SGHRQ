@@ -55,7 +55,7 @@ python ./train.py configs/SGHRQ/SGHRQ_r18-d8_2000x2000_40k_InriaAerial.py
 python ./train.py configs/SGHRQ/SGHRQ_r18-d8_1224x1224_80k_DeepGlobe.py
 ```
 ## Citation
-For the details of our previous work, please refer to [link](https://github.com/liqiokkk/FCtL).
+For the details of our previous work, please refer to [link](https://github.com/liqiokkk/FCtL).  
 If you use this code or our results for your research, please cite our papers.
 ```
 @ARTICLE{10380673,
