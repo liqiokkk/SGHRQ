@@ -43,6 +43,7 @@ Create folder named 'DeepGlobe', its structure is
       ├── test
 ```
 ### test
+Please download following pretrianed-model [here]()
 ```
 python ./test.py configs/SGHRQ/SGHRQ_r18-d8_2000x2000_40k_InriaAerial.py InriaAerial.pth --eval mIoU  
 python ./test.py configs/SGHRQ/SGHRQ_r18-d8_1224x1224_80k_DeepGlobe.py DeepGlobe.pth --eval mIoU
