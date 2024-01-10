@@ -7,7 +7,7 @@ Ultra-high resolution image segmentation poses a formidable challenge for UAVs w
 ![framework](https://github.com/liqiokkk/SGHRQ/blob/main/framework.png)
 ## Test and train
 python==3.7, pytorch==1.10.0, and mmcv==1.7.0  
-Other dependencies:matplotlib, prettytable, yapf==0.32.0
+Other dependencies: matplotlib, prettytable, yapf==0.32.0
 ### dataset
 Please register and download [Inria Aerial](https://project.inria.fr/aerialimagelabeling/) dataset and [DeepGlobe](https://competitions.codalab.org/competitions/18468) dataset.  
 We follow [FCtL](https://github.com/liqiokkk/FCtL) to split two datasets.  
