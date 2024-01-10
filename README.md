@@ -67,12 +67,3 @@ If you use this code or our results for your research, please cite our papers.
   pages={1-8},
   doi={10.1109/LRA.2024.3349812}}
 ```
-```
-@inproceedings{li2021contexts,
-  title={From Contexts to Locality: Ultra-high Resolution Image Segmentation via Locality-aware Contextual Correlation},
-  author={Li, Qi and Yang, Weixiang and Liu, Wenxi and Yu, Yuanlong and He, Shengfeng},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  pages={7252--7261},
-  year={2021}
-}
-```
