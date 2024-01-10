@@ -10,9 +10,46 @@ python==3.7, pytorch==1.10.0, and mmcv==1.7.0
 ### dataset
 Please register and download [Inria Aerial](https://project.inria.fr/aerialimagelabeling/) dataset and [DeepGlobe](https://competitions.codalab.org/competitions/18468) dataset
 We follow [FCtL](https://github.com/liqiokkk/FCtL) to split two datasets.
-
+Create folder named 'InriaAerial', its structure is 
+```
+    InriaAerial/
+    ├── imgs
+       ├── train
+          ├── xxx_sat.tif
+          ├── ...
+       ├── test
+       ├── val
+    ├── labels
+       ├── train
+          ├── xxx_mask.png(two values:0-1)
+          ├── ...
+       ├── test
+       ├── val
+```
+Create folder named 'DeepGlobe', its structure is
+```
+    DeepGlobe/
+    ├── img_dir
+       ├── train
+          ├── xxx_sat.jpg
+          ├── ...
+       ├── val
+       ├── test
+    ├── rgb2id
+      ├── train
+          ├── xxx_mask.png(0-6)
+          ├── ...
+      ├── val
+      ├── test
+```
+### test
+python ./test.py configs/SGHRQ/SGHRQ_r18-d8_2000x2000_40k_InriaAerial.py InriaAerial.pth --eval mIoU
+python ./test.py configs/SGHRQ/SGHRQ_r18-d8_1224x1224_80k_DeepGlobe.py DeepGlobe.pth --eval mIoU
+### train
+python ./train.py configs/SGHRQ/SGHRQ_r18-d8_2000x2000_40k_InriaAerial.py
+python ./train.py configs/SGHRQ/SGHRQ_r18-d8_1224x1224_80k_DeepGlobe.py
 ## Citation
-If you use this code or our results for your research, please cite our paper.
+If you use this code or our results for your research, please cite our papers.
 ```
 @ARTICLE{10380673,
   author={Li, Qi and Cai, Jiaxin and Luo, Jiexin and Yu, Yuanlong and Gu, Jason and Pan, Jia and Liu, Wenxi},
