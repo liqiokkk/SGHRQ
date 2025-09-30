@@ -66,4 +66,4 @@ If you use this code or our results for your research, please cite our papers.
   publisher={IEEE}
 }
 ```
-For the details of our previous work, please refer to [link](https://github.com/liqiokkk/FCtL).
+For the details of our previous work, please refer to [FCtL](https://github.com/liqiokkk/FCtL).
